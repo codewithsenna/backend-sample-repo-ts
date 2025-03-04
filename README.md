@@ -1,7 +1,7 @@
 # TypeScript
 
 
-Migration -> Types -> Mappers -> Repositories -> Services -> Controllers -> Routes
+Migration -> Types -> Mappers -> Repositories -> Services -> Controllers -> Routers -> Routes
 
 # Step 1:
 Remote: origin
