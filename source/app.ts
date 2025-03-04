@@ -6,7 +6,7 @@ import helmet from 'helmet';
 import session from 'express-session';
 import morgan from 'morgan';
 import cors from 'cors';
-import indexRoute from './routes/index';
+import routes from './routes/allRoutes.routes';
 
 const app = express();
 
@@ -41,6 +41,6 @@ app.use(
 );
 
 // Routes
-app.use('/', indexRoute);
+app.use('/', routes);
 
 export default app;
